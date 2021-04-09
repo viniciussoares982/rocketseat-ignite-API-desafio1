@@ -89,7 +89,7 @@ app.post('/todos', checksExistsUserAccount, (request, response) => {
 });
 
 app.put('/todos/:id', checksExistsUserAccount, checkTodoExists, (request, response) => {
-  const { account, todoList } = request
+  const { todoList } = request
   const { title, deadline } = request.body
 
   todoList.title = title
@@ -99,7 +99,7 @@ app.put('/todos/:id', checksExistsUserAccount, checkTodoExists, (request, respon
 });
 
 app.patch('/todos/:id/done', checksExistsUserAccount, checkTodoExists, (request, response) => {
-  const { account, todoList } = request
+  const { todoList } = request
 
   todoList.done = true
 

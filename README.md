@@ -1,7 +1,7 @@
 # Ignite Node.js - Capítulo I, Desafio 01 || API - Todo CRUD
  Desafio, criar uma API com funcionalidades de uma aplicação para gerenciar tarefas(em ingles: Todos List).
  
-# Bem como fazer o CRUD de *todos*:
+# Fazer o CRUD de *todos*:
 
 - Criar um novo *todo*;
 - Listar todos os *todos*;
